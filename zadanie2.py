@@ -4,11 +4,12 @@ while st == '':
     if st == '':
         print('Вы ввели пустую строку')
 print('Ваша строка:', st)
+
 st += ' '
 l_words = []
 word = ''
 
-for i in range(len(st)):
+for i in range(len(st)): # добавление слов в список
     if st[i] != ' ':
         word += st[i]
     elif st[i] == ' ':
@@ -17,7 +18,7 @@ for i in range(len(st)):
 print(l_words)
 
 l_a = []
-for word in l_words:
+for word in l_words: # поиск нужных слов
     c = 0
     for ch in word:
         if ch == 'a':
