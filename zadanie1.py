@@ -5,4 +5,4 @@ while st == '':
         print('Вы ввели пустую строку')
 
 for i in range(len(st)):
-    if st[i] =
+    if st[i]
