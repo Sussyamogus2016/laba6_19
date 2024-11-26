@@ -4,6 +4,7 @@ while st == '':
     if st == '':
         print('Вы ввели пустую строку')
 
+print('Ваша строка:', st)
 result = ''
 in_brackets = False
 
@@ -16,4 +17,4 @@ for ch in st:
         result += ch
     elif not in_brackets:
         result += ch
-print(result)
+print('Измененная строка:', result)
