@@ -4,10 +4,16 @@ while st == '':
     if st == '':
         print('Вы ввели пустую строку')
 
-for i in range(len(st)):
-    if st[i] == '(':
-        for j in range(i, len(st)):
-            if st[j] == ')':
-                for k in range(0, )
+result = ''
+in_brackets = False
 
-
+for ch in st:
+    if ch == '(':
+        in_brackets = True
+        result += ch  # сохраняем открытую скобку
+    elif ch == ')':
+        in_brackets = False
+        result += ch  # сохраняем закрытую скобку
+    elif not in_brackets:
+        result += ch  # сохраняем символ, если не внутри скобок
+print(result)
