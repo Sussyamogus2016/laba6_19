@@ -10,10 +10,10 @@ in_brackets = False
 for ch in st:
     if ch == '(':
         in_brackets = True
-        result += ch  # сохраняем открытую скобку
+        result += ch
     elif ch == ')':
         in_brackets = False
-        result += ch  # сохраняем закрытую скобку
+        result += ch
     elif not in_brackets:
-        result += ch  # сохраняем символ, если не внутри скобок
+        result += ch
 print(result)
