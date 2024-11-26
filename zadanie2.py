@@ -9,13 +9,12 @@ st += ' '
 l_words = []
 word = ''
 
-for i in range(len(st)): # добавление слов в список
-    if st[i] != ' ':
-        word += st[i]
-    elif st[i] == ' ':
+for ch in st: # добавление слов в список
+    if ch != ' ':
+        word += ch
+    elif ch == ' ':
         l_words.append(word)
         word = ''
-print(l_words)
 
 l_a = []
 for word in l_words: # поиск нужных слов
@@ -25,6 +24,6 @@ for word in l_words: # поиск нужных слов
             c += 1
     if c >= 2:
         l_a.append(word)
-print(l_a)
+print('Слова, в которых буква "а" входит не менее двух раз:', *l_a)
 
 

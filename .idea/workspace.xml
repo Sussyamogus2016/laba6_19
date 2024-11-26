@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88934357-5614-45c5-a5a0-6efc28ce211c" name="Changes" comment="com4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadanie1.py" beforeDir="false" afterPath="$PROJECT_DIR$/zadanie1.py" afterDir="false" />
-    </list>
+    <list default="true" id="88934357-5614-45c5-a5a0-6efc28ce211c" name="Changes" comment="com7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +96,31 @@
       <option name="project" value="LOCAL" />
       <updated>1732562539664</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="com5">
+      <option name="closed" value="true" />
+      <created>1732630658292</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732630658292</updated>
+    </task>
+    <task id="LOCAL-00007" summary="com6">
+      <option name="closed" value="true" />
+      <created>1732630913685</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732630913685</updated>
+    </task>
+    <task id="LOCAL-00008" summary="com7">
+      <option name="closed" value="true" />
+      <created>1732630965431</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732630965431</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +139,9 @@
     <MESSAGE value="com2" />
     <MESSAGE value="com3" />
     <MESSAGE value="com4" />
-    <option name="LAST_COMMIT_MESSAGE" value="com4" />
+    <MESSAGE value="com5" />
+    <MESSAGE value="com6" />
+    <MESSAGE value="com7" />
+    <option name="LAST_COMMIT_MESSAGE" value="com7" />
   </component>
 </project>
